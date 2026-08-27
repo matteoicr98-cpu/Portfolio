@@ -1,0 +1,4 @@
+.gallery-grid--blijdorp{grid-template-columns:minmax(0,1fr) auto;align-items:start}
+.gallery-grid--blijdorp>.wide{height:570px;min-height:0;grid-row:auto;object-fit:cover}
+.gallery-grid--blijdorp>.side{width:379px;height:570px;object-fit:cover;padding:0;background:transparent}
+@media(max-width:760px){.gallery-grid--blijdorp{grid-template-columns:1fr}.gallery-grid--blijdorp>.wide{height:auto;min-height:420px}.gallery-grid--blijdorp>.side{width:100%;height:auto;aspect-ratio:860/1294;object-fit:contain}}
