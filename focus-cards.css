@@ -1,0 +1,18 @@
+.capabilities--cards{padding-top:35px;border-top:0}
+.focus-card-grid{max-width:1080px;margin:58px auto 0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:26px}
+.focus-card{grid-column:span 2;position:relative;aspect-ratio:3/4;min-height:310px;overflow:hidden;background:linear-gradient(145deg,#d8d1ca,#a99c92);isolation:isolate;cursor:pointer;box-shadow:0 0 0 1px rgba(11,11,11,.24)}
+.focus-card:nth-last-child(2):nth-child(3n+1){grid-column:2/span 2}
+.focus-card:last-child:nth-child(3n+2){grid-column:4/span 2}
+.focus-card__image{position:absolute;inset:0;background:linear-gradient(145deg,#d9d3cc,#9e9288);transition:transform .55s cubic-bezier(.2,.75,.25,1),filter .45s ease}
+.focus-card--sustainability .focus-card__image{background:url("assets/focus-sustainability.jpg") center 58%/cover no-repeat}
+.focus-card__number{position:absolute;top:18px;left:18px;z-index:2;color:#fff;font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;text-shadow:0 1px 8px rgba(0,0,0,.45)}
+.focus-card__panel{position:absolute;z-index:3;left:0;right:0;bottom:0;min-height:46%;padding:21px 20px;background:var(--paper);color:var(--ink);transform:translateY(calc(100% - 82px));transition:transform .48s cubic-bezier(.2,.75,.25,1);display:flex;flex-direction:column;justify-content:space-between}
+.focus-card__panel h3{max-width:92%;margin:0;font-size:clamp(19px,2vw,28px);line-height:1.02}
+.focus-card__panel p{margin:28px 0 0;font:500 10px/1.5 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.focus-card__arrow{position:absolute;right:19px;top:19px;font-size:20px;transition:transform .35s ease}
+.focus-card:hover .focus-card__image,.focus-card:focus-within .focus-card__image{transform:scale(1.035);filter:saturate(1.05)}
+.focus-card:hover .focus-card__panel,.focus-card:focus-within .focus-card__panel{transform:translateY(0)}
+.focus-card:hover .focus-card__arrow{transform:translate(3px,-3px)}
+@media(max-width:900px){.focus-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.focus-card,.focus-card:nth-last-child(2):nth-child(3n+1),.focus-card:last-child:nth-child(3n+2){grid-column:auto}}
+@media(max-width:560px){.focus-card-grid{grid-template-columns:1fr;gap:18px}.focus-card{min-height:390px}.focus-card__panel{transform:translateY(calc(100% - 78px))}}
+@media(hover:none){.focus-card__panel{transform:translateY(calc(100% - 82px))}}

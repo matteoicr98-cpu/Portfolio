@@ -291,6 +291,7 @@ h3{font-size:27px;line-height:1.05;letter-spacing:-.05em;margin:12px 0 0;font-we
 
 .experience-card--gob{background:#181818 url("assets/gob-event.jpg") center/cover no-repeat}
 
+
 .more-projects{display:inline-flex;gap:24px;margin:42px 0 0 28%;align-items:center;color:var(--ink);text-decoration:none;font:500 12px var(--mono);text-transform:uppercase;border-bottom:1px solid var(--ink);padding-bottom:8px}
 
 .more-projects span{font-size:19px}
