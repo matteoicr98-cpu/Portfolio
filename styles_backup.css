@@ -1,0 +1,72 @@
+/* backup of previous scaffold styles (feature/redesign) */
+:root{
+  --font-sans: 'Manrope', Arial, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --base-bg: #f3f1ee;
+  --base-ink: #0b0b0b;
+  --accent: #9b8c7a; /* placeholder accent — to be reviewed */
+  --container-width: 1100px;
+  --spacing: 24px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:var(--font-sans);background:var(--base-bg);color:var(--base-ink);-webkit-font-smoothing:antialiased}
+.container{max-width:var(--container-width);margin:0 auto;padding:0 20px}
+
+/* Header */
+.site-header{position:fixed;left:0;right:0;top:0;height:72px;display:flex;align-items:center;background:rgba(243,241,238,0.85);backdrop-filter:blur(6px);border-bottom:0;z-index:40}
+.header-inner{display:flex;align-items:center;justify-content:space-between;width:100%}
+.brand{font-weight:700;letter-spacing:-1px;text-decoration:none;color:var(--base-ink);font-size:20px}
+.brand-dot{color:var(--accent);margin-left:4px}
+.site-nav{display:flex;gap:20px}
+.site-nav a{font-family:var(--font-mono);font-size:12px;text-transform:uppercase;text-decoration:none;color:var(--base-ink);opacity:0.95}
+.nav-toggle{display:none;border:0;background:none;font-size:20px}
+
+/* Hero */
+.hero-landing{position:relative;height:calc(100vh - 72px);display:flex;align-items:center}
+.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero-overlay{position:relative;z-index:2;display:flex;align-items:center;height:100%;}
+.hero-content{padding:calc(var(--spacing) * 2);max-width:720px}
+.hero-title{font-size:clamp(40px,8vw,96px);margin:0;line-height:0.95}
+.hero-sub{margin-top:12px;font-size:18px;opacity:0.9}
+.hero-tags{font-family:var(--font-mono);display:block;margin-top:8px;font-size:13px}
+
+/* Main content */
+.content{padding:120px 0 80px}
+.section-header{margin-bottom:30px}
+.section-header h1{font-size:36px;margin:0}
+.section-intro{color:#6c6a68}
+
+/* Grid + cards */
+.project-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}
+.project-card{position:relative;overflow:hidden;border-radius:6px;background:#fff;box-shadow:0 6px 18px rgba(12,12,12,0.06)}
+.project-card img{width:100%;height:220px;object-fit:cover;display:block}
+.project-meta{padding:14px}
+.project-meta h3{margin:0;font-size:18px}
+.project-role{font-family:var(--font-mono);font-size:12px;color:#6c6a68;margin-top:6px}
+
+/* Focus cards */
+.focus-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.focus-card{display:flex;flex-direction:column;gap:12px}
+.focus-card img{width:100%;height:160px;object-fit:cover;border-radius:6px}
+.focus-copy h3{margin:0}
+
+/* Roles */
+.roles-list{display:grid;gap:12px}
+.role-item summary{font-weight:600;cursor:pointer;padding:12px;background:#fff;border-radius:6px}
+.role-body{padding:12px;background:#fbfaf8;border-radius:6px}
+
+/* Footer */
+.site-footer{Padding:40px 0;background:transparent;margin-top:40px}
+
+/* Responsive */
+@media (max-width:900px){
+  .site-nav{display:none}
+  .nav-toggle{display:block}
+  .hero-title{font-size:clamp(32px,10vw,64px)}
+}
+
+/* Page base animations */
+.page{opacity:0;transform:translateY(6px);transition:opacity .35s ease,transform .35s ease}
+.page.is-visible{opacity:1;transform:none}
