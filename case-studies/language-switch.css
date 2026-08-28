@@ -1,0 +1,27 @@
+.language-switch--case {
+  position: absolute;
+  top: 24px;
+  right: 5vw;
+  z-index: 12;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font: 500 10px "DM Mono", monospace;
+  letter-spacing: .05em;
+}
+
+.language-switch--case button {
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  padding: 4px 1px;
+  cursor: pointer;
+  opacity: .46;
+}
+
+.language-switch--case button.active {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

@@ -1,0 +1,31 @@
+.gallery-grid--single {
+  grid-template-columns: 1fr;
+}
+
+.gallery-grid--single .wide {
+  grid-row: auto;
+  min-height: min(68vw, 760px);
+}
+
+.gallery-grid--kappa .wide,
+.gallery-grid--aoa .wide {
+  min-height: 620px;
+}
+
+.gallery-grid--kappa .side,
+.gallery-grid--aoa .side {
+  height: 303px;
+}
+
+@media (max-width: 760px) {
+  .gallery-grid--single .wide,
+  .gallery-grid--kappa .wide,
+  .gallery-grid--aoa .wide {
+    min-height: 420px;
+  }
+
+  .gallery-grid--kappa .side,
+  .gallery-grid--aoa .side {
+    height: 300px;
+  }
+}
