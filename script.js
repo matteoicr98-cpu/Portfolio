@@ -296,3 +296,19 @@ applyLanguage(currentLanguage);
 
 const year = document.querySelector('#year');
 if (year) year.textContent = new Date().getFullYear();
+
+const focusCards = document.querySelectorAll('.focus-card');
+if (focusCards.length) {
+  focusCards.forEach((card) => {
+    card.addEventListener('click', () => {
+      if (!window.matchMedia('(hover: none)').matches) return;
+      focusCards.forEach((other) => { if (other !== card) other.classList.remove('is-open'); });
+      card.classList.toggle('is-open');
+    });
+    card.addEventListener('keydown', (event) => {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+      card.click();
+    });
+  });
+}
