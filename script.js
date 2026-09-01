@@ -69,6 +69,55 @@ const translations = {
   'Sustainability, volunteer and team management, entrance and access operations, and social safety / visitor experience.': 'Sostenibilità, gestione di volontari e team, operazioni di ingresso e accesso, social safety ed esperienza del pubblico.',
   'Areas of focus': 'Aree di focus',
   'Explore area': 'Esplora l’area',
+  '← Back': '← Indietro',
+  'What it means': 'Cosa significa',
+  'In practice': 'In pratica',
+  'My approach': 'Il mio approccio',
+  'Why it matters': 'Perché è importante',
+  'Making sustainability part of everyday event operations, from crew awareness to practical actions on site.': 'Integrare la sostenibilità nelle operazioni quotidiane di un evento, dalla consapevolezza della crew alle azioni pratiche sul posto.',
+  'Turning sustainability goals into practical systems that work during live events.': 'Trasformare gli obiettivi di sostenibilità in sistemi pratici che funzionano durante gli eventi live.',
+  'Crew awareness & briefings': 'Consapevolezza della crew e briefing',
+  'Visitor engagement': 'Coinvolgimento del pubblico',
+  'Waste & recycling systems': 'Sistemi per rifiuti e riciclo',
+  'Resource-conscious operations': 'Operazioni attente alle risorse',
+  'Sustainability training': 'Formazione sulla sostenibilità',
+  'Sustainability works best when it becomes part of the operation itself.': 'La sostenibilità funziona al meglio quando diventa parte integrante dell’operazione.',
+  'Creating clear structures for teams and volunteers so everyone understands their role, responsibilities and priorities.': 'Creare strutture chiare per team e volontari, affinché ognuno comprenda ruolo, responsabilità e priorità.',
+  'Helping teams operate effectively through preparation, communication and clear on-site coordination.': 'Aiutare i team a operare con efficacia attraverso preparazione, comunicazione e un chiaro coordinamento on-site.',
+  'Team briefings': 'Briefing del team',
+  'Role & task allocation': 'Assegnazione di ruoli e compiti',
+  'Volunteer coordination': 'Coordinamento dei volontari',
+  'Supervisor communication': 'Comunicazione con i supervisor',
+  'Shift organisation': 'Organizzazione dei turni',
+  'Real-time team support': 'Supporto al team in tempo reale',
+  'Clear communication and preparation give teams the structure they need to perform confidently during live operations.': 'Comunicazione chiara e preparazione danno ai team la struttura necessaria per operare con sicurezza durante le attività live.',
+  'Managing one of the first operational points of contact between an event and its visitors: access, flow and coordination.': 'Gestire uno dei primi punti di contatto operativi tra un evento e il suo pubblico: accesso, flussi e coordinamento.',
+  'Keeping entrance operations organised, efficient and responsive while supporting a smooth visitor flow.': 'Mantenere le operazioni di ingresso organizzate, efficienti e reattive, favorendo un flusso fluido del pubblico.',
+  'Check-in & accreditation': 'Check-in e accrediti',
+  'Access control': 'Controllo degli accessi',
+  'Visitor flow': 'Flusso del pubblico',
+  'Crew positioning': 'Posizionamento della crew',
+  'Entrance communication': 'Comunicazione agli ingressi',
+  'Real-time issue solving': 'Risoluzione dei problemi in tempo reale',
+  'The entrance sets the tone for the visitor journey and is one of the first places where planning becomes live operations.': 'L’ingresso definisce il tono dell’esperienza del pubblico ed è uno dei primi luoghi in cui la pianificazione diventa operatività live.',
+  'Supporting environments where visitors feel safe, respected and able to ask for help when needed.': 'Favorire ambienti in cui il pubblico si senta al sicuro, rispettato e libero di chiedere aiuto quando necessario.',
+  'Bringing awareness, communication and visitor care into live-event operations.': 'Integrare consapevolezza, comunicazione e attenzione al pubblico nelle operazioni degli eventi live.',
+  'Awareness presence': 'Presenza awareness',
+  'Visitor support': 'Supporto al pubblico',
+  'Clear communication': 'Comunicazione chiara',
+  'Recognising unsafe situations': 'Riconoscimento delle situazioni non sicure',
+  'Escalation & team coordination': 'Escalation e coordinamento del team',
+  'Inclusive event environments': 'Ambienti di evento inclusivi',
+  'Social safety directly shapes how comfortable, included and supported people feel throughout an event.': 'La social safety influenza direttamente quanto le persone si sentano a proprio agio, incluse e supportate durante un evento.',
+  'Looking at event operations from the visitor’s perspective — from arrival and access to support throughout the event.': 'Osservare le operazioni dell’evento dalla prospettiva del pubblico, dall’arrivo e dall’accesso fino al supporto durante l’evento.',
+  'Understanding how operational decisions influence the way visitors experience an event.': 'Comprendere come le decisioni operative influenzano il modo in cui il pubblico vive un evento.',
+  'Arrival & entrance experience': 'Esperienza di arrivo e ingresso',
+  'Clear visitor communication': 'Comunicazione chiara al pubblico',
+  'Crowd and visitor flow': 'Flussi di folla e pubblico',
+  'Accessibility of support': 'Accessibilità del supporto',
+  'On-site problem solving': 'Risoluzione dei problemi on-site',
+  'Coordination between operational teams': 'Coordinamento tra i team operativi',
+  'Small operational decisions can have a major impact on how smooth, safe and welcoming an event feels.': 'Piccole decisioni operative possono avere un grande impatto su quanto un evento risulti fluido, sicuro e accogliente.',
   'Image pending': 'Immagine in arrivo',
   'Volunteer & Team Management': 'Gestione volontari e team',
   'Entrance / Access Operations': 'Operazioni di ingresso / accesso',
@@ -90,6 +139,63 @@ const translations = {
   'Event Project Coordination': 'Coordinamento di progetto per eventi',
   'Client communication · Pre-production · Live delivery · Aftercare': 'Comunicazione con il cliente · Pre-produzione · Delivery live · Aftercare',
   'Selected examples': 'Esempi selezionati',
+  'Explore role': 'Esplora il ruolo',
+  'Close ×': 'Chiudi ×',
+  'Role / Event production': 'Ruolo / Produzione eventi',
+  'Supporting event projects from initial requirements and pre-production through to live delivery and project closing.': 'Supporto ai progetti di evento dai requisiti iniziali e dalla pre-produzione fino alla delivery live e alla chiusura del progetto.',
+  'How I work': 'Come lavoro',
+  'Clear communication, structured preparation and close coordination between client needs, teams and live operations.': 'Comunicazione chiara, preparazione strutturata e coordinamento costante tra esigenze del cliente, team e operazioni live.',
+  'What I contribute': 'Il mio contributo',
+  'Proposal & offer development': 'Sviluppo di proposte e offerte',
+  'Timeline coordination': 'Coordinamento delle tempistiche',
+  'Team / crew coordination': 'Coordinamento di team e crew',
+  'Live delivery support': 'Supporto alla delivery live',
+  'Aftercare & project closing': 'Aftercare e chiusura del progetto',
+  'Selected experience': 'Esperienze selezionate',
+  'Project Management': 'Project management',
+  'Role / Live operations': 'Ruolo / Operazioni live',
+  'Supporting live event delivery through clear communication, situational awareness and practical coordination on site.': 'Supporto alla delivery degli eventi live attraverso comunicazione chiara, consapevolezza della situazione e coordinamento pratico on-site.',
+  'Operational approach': 'Approccio operativo',
+  'Staying close to the operation, maintaining overview and responding quickly when plans meet real-time conditions.': 'Restare vicino all’operazione, mantenere una visione d’insieme e rispondere rapidamente quando i piani incontrano le condizioni in tempo reale.',
+  'On-site event operations': 'Operazioni dell’evento on-site',
+  'Operational communication': 'Comunicazione operativa',
+  'Real-time problem solving': 'Risoluzione dei problemi in tempo reale',
+  'Coordination between teams': 'Coordinamento tra i team',
+  'Visitor-facing operations': 'Operazioni a contatto con il pubblico',
+  'Situational awareness': 'Consapevolezza della situazione',
+  'Support during live delivery': 'Supporto durante la delivery live',
+  'Venue / Security Operations': 'Operazioni venue / security',
+  'Social Safety & Live Operations': 'Social safety e operazioni live',
+  'Operational & Crew Support': 'Supporto operativo e alla crew',
+  'Role / People & teams': 'Ruolo / Persone e team',
+  'Creating clear structures around crews, volunteers and supervisors so teams can operate effectively during live events.': 'Creare strutture chiare per crew, volontari e supervisor affinché i team possano operare efficacemente durante gli eventi live.',
+  'Clear roles, direct communication and strong preparation help teams stay effective when the event becomes live.': 'Ruoli chiari, comunicazione diretta e una preparazione solida aiutano i team a rimanere efficaci quando l’evento diventa live.',
+  'Shift coordination': 'Coordinamento dei turni',
+  'Volunteer Management / 350+ crew': 'Gestione volontari / oltre 350 persone',
+  'Crew Manager': 'Crew Manager',
+  'Assistant Crew Manager': 'Assistant Crew Manager',
+  'Entrance / Crew Supervision': 'Supervisione ingressi / crew',
+  'Role / Access & arrival': 'Ruolo / Accessi e arrivi',
+  'Coordinating access, teams and visitor flow at one of the most operationally sensitive areas of an event.': 'Coordinare accessi, team e flussi del pubblico in una delle aree operativamente più sensibili di un evento.',
+  'Combining preparation, clear crew communication and real-time overview to keep arrival flows organised and responsive.': 'Unire preparazione, comunicazione chiara con la crew e visione d’insieme in tempo reale per mantenere i flussi di arrivo organizzati e reattivi.',
+  'Entrance operations': 'Operazioni di ingresso',
+  'Check-in': 'Check-in',
+  'Accreditation': 'Accrediti',
+  'Entrance Crew Management': 'Gestione della crew agli ingressi',
+  'Entrance Management': 'Gestione degli ingressi',
+  'Entrance Supervisor': 'Supervisore degli ingressi',
+  'Role / Site systems': 'Ruolo / Sistemi del sito',
+  'Supporting the physical and operational systems that need to be in place before an event can open.': 'Supportare i sistemi fisici e operativi che devono essere pronti prima dell’apertura di un evento.',
+  'Understanding the practical systems behind an event helps connect what happens during build-up with what teams and visitors need once the site becomes live.': 'Comprendere i sistemi pratici dietro un evento aiuta a collegare ciò che accade durante l’allestimento con le esigenze di team e pubblico quando il sito diventa operativo.',
+  'Festival build-up': 'Allestimento del festival',
+  'Infrastructure support': 'Supporto alle infrastrutture',
+  'Site preparation': 'Preparazione del sito',
+  'Logistics': 'Logistica',
+  'Water infrastructure': 'Infrastrutture idriche',
+  'Electricity infrastructure': 'Infrastrutture elettriche',
+  'Operational readiness': 'Preparazione operativa',
+  'Support during build phases': 'Supporto durante le fasi di allestimento',
+  'Infrastructure Build-up / Team Infra': 'Allestimento infrastrutturale / Team Infra',
   'Operational clarity across live days.': 'Chiarezza operativa durante le giornate live.',
   'On-site execution · Operational communication · Real-time problem solving': 'Esecuzione on-site · Comunicazione operativa · Risoluzione dei problemi in tempo reale',
   'People, communication and live coordination.': 'Persone, comunicazione e coordinamento live.',
@@ -299,16 +405,128 @@ if (year) year.textContent = new Date().getFullYear();
 
 const focusCards = document.querySelectorAll('.focus-card');
 if (focusCards.length) {
+  const setFocusCardFlipped = (card, flipped, moveFocus = true) => {
+    const front = card.querySelector('.focus-card__front');
+    const back = card.querySelector('.focus-card__back');
+    const explore = card.querySelector('.focus-card__explore');
+    const backButton = card.querySelector('.focus-card__back-button');
+    card.classList.toggle('is-flipped', flipped);
+    front?.toggleAttribute('inert', flipped);
+    back?.toggleAttribute('inert', !flipped);
+    explore?.setAttribute('aria-pressed', String(flipped));
+    if (moveFocus) requestAnimationFrame(() => (flipped ? backButton : explore)?.focus());
+  };
+
   focusCards.forEach((card) => {
-    card.addEventListener('click', () => {
+    const front = card.querySelector('.focus-card__front');
+    const explore = card.querySelector('.focus-card__explore');
+    const backButton = card.querySelector('.focus-card__back-button');
+
+    front?.addEventListener('click', (event) => {
       if (!window.matchMedia('(hover: none)').matches) return;
+      if (event.target.closest('button')) return;
       focusCards.forEach((other) => { if (other !== card) other.classList.remove('is-open'); });
       card.classList.toggle('is-open');
     });
+
+    explore?.addEventListener('click', (event) => {
+      event.stopPropagation();
+      focusCards.forEach((other) => {
+        if (other !== card) {
+          other.classList.remove('is-open');
+          setFocusCardFlipped(other, false, false);
+        }
+      });
+      setFocusCardFlipped(card, true);
+    });
+
+    backButton?.addEventListener('click', (event) => {
+      event.stopPropagation();
+      setFocusCardFlipped(card, false);
+    });
+
     card.addEventListener('keydown', (event) => {
-      if (event.key !== 'Enter' && event.key !== ' ') return;
-      event.preventDefault();
-      card.click();
+      if (event.key !== 'Escape' || !card.classList.contains('is-flipped')) return;
+      setFocusCardFlipped(card, false);
+    });
+  });
+}
+
+const roleExpansionTriggers = [...document.querySelectorAll('[data-role-expand]')];
+const roleExpansionLayers = [...document.querySelectorAll('[data-role-expansion]')];
+if (roleExpansionTriggers.length && roleExpansionLayers.length) {
+  const roleExpansionMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const roleExpansionTimers = new WeakMap();
+  let openRoleKey = null;
+
+  const roleTrigger = (key) => roleExpansionTriggers.find((trigger) => trigger.dataset.roleExpand === key);
+  const roleLayer = (key) => roleExpansionLayers.find((layer) => layer.dataset.roleExpansion === key);
+  const roleFocusable = (layer) => [...layer.querySelectorAll('button:not([disabled]):not([tabindex="-1"]), a[href]')];
+
+  const showRoleExpansion = (key) => {
+    const trigger = roleTrigger(key);
+    const layer = roleLayer(key);
+    if (!trigger || !layer) return;
+    window.clearTimeout(roleExpansionTimers.get(layer));
+    layer.removeAttribute('inert');
+    layer.setAttribute('aria-hidden', 'false');
+    trigger.setAttribute('aria-expanded', 'true');
+    document.body.classList.add('role-expansion-open');
+    openRoleKey = key;
+    requestAnimationFrame(() => {
+      layer.classList.add('is-open');
+      layer.querySelector('.role-expansion__close')?.focus();
+    });
+  };
+
+  const closeRoleExpansion = (key, { restoreFocus = true, afterClose = null } = {}) => {
+    const trigger = roleTrigger(key);
+    const layer = roleLayer(key);
+    if (!trigger || !layer) return;
+    window.clearTimeout(roleExpansionTimers.get(layer));
+    layer.classList.remove('is-open');
+    trigger.setAttribute('aria-expanded', 'false');
+    if (openRoleKey === key) openRoleKey = null;
+    if (!afterClose) document.body.classList.remove('role-expansion-open');
+    const timer = window.setTimeout(() => {
+      layer.setAttribute('aria-hidden', 'true');
+      layer.setAttribute('inert', '');
+      if (restoreFocus) trigger.focus();
+      if (afterClose) afterClose();
+    }, roleExpansionMotion.matches ? 0 : 520);
+    roleExpansionTimers.set(layer, timer);
+  };
+
+  roleExpansionTriggers.forEach((trigger) => trigger.addEventListener('click', () => {
+    const key = trigger.dataset.roleExpand;
+    if (openRoleKey && openRoleKey !== key) {
+      closeRoleExpansion(openRoleKey, { restoreFocus: false, afterClose: () => showRoleExpansion(key) });
+      return;
+    }
+    showRoleExpansion(key);
+  }));
+
+  roleExpansionLayers.forEach((layer) => {
+    const key = layer.dataset.roleExpansion;
+    layer.querySelectorAll('[data-role-close]').forEach((button) => button.addEventListener('click', () => closeRoleExpansion(key)));
+    layer.querySelector('.role-expansion')?.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        closeRoleExpansion(key);
+        return;
+      }
+      if (event.key !== 'Tab') return;
+      const focusable = roleFocusable(layer);
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
     });
   });
 }
