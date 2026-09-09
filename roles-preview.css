@@ -3,7 +3,8 @@
 .roles-page .grain {opacity:.018}
 .roles-page::before {content:"";position:fixed;inset:-12%;pointer-events:none;background:radial-gradient(circle at 16% 28%,rgba(238,154,103,.58) 0,rgba(238,154,103,.24) 16%,transparent 37%),radial-gradient(circle at 76% 18%,rgba(93,146,174,.54) 0,rgba(93,146,174,.22) 17%,transparent 39%),radial-gradient(circle at 74% 82%,rgba(164,143,190,.46) 0,rgba(164,143,190,.18) 18%,transparent 39%),radial-gradient(circle at 28% 78%,rgba(110,165,151,.38) 0,transparent 36%);filter:blur(28px);opacity:.86;transform:translate3d(-5%,-3%,0) scale(1.03);animation:rolesAmbientLight 12s ease-in-out infinite alternate;will-change:transform;z-index:0}
 .roles-page::after {content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(115deg,rgba(255,255,255,.4),transparent 36%,rgba(255,255,255,.14) 68%,rgba(255,255,255,.34));z-index:0}
-.roles-page .nav,.roles-page main {position:relative;z-index:1}
+.roles-page .nav {position:relative;z-index:20}
+.roles-page main {position:relative;z-index:1}
 @keyframes rolesAmbientLight {
   0% {transform:translate3d(-5%,-3%,0) scale(1.03) rotate(-1deg)}
   46% {transform:translate3d(6%,2%,0) scale(1.1) rotate(3deg)}

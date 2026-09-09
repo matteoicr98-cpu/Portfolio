@@ -75,7 +75,11 @@
   animation: innerPageSweep 9s ease-in-out infinite alternate;
 }
 
-.visual-preview > .nav,
+.visual-preview > .nav {
+  position: relative;
+  z-index: 20;
+}
+
 .visual-preview > main {
   position: relative;
   z-index: 1;
