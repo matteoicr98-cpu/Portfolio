@@ -19,6 +19,7 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);f
 
 
 .brand{font-size:26px;font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:-2px}
+.brand-logo{display:block;width:36px;height:36px}
 
 
 .brand span{color:#d06c4d}

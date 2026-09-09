@@ -1,0 +1,186 @@
+/* Shared visual study for the portfolio's inner pages. */
+.visual-preview {
+  --ambient-a: 238, 154, 103;
+  --ambient-b: 93, 146, 174;
+  --ambient-c: 164, 143, 190;
+  --ambient-d: 110, 165, 151;
+  min-height: 100%;
+  overflow-x: hidden;
+  isolation: isolate;
+  background: #dfe2de;
+}
+
+.visual-preview--about {
+  --ambient-a: 232, 151, 101;
+  --ambient-b: 107, 149, 171;
+  --ambient-c: 181, 151, 183;
+  --ambient-d: 117, 162, 145;
+}
+
+.visual-preview--focus {
+  --ambient-a: 220, 139, 84;
+  --ambient-b: 73, 132, 161;
+  --ambient-c: 132, 142, 184;
+  --ambient-d: 83, 150, 139;
+}
+
+.visual-preview--experience {
+  --ambient-a: 211, 151, 112;
+  --ambient-b: 104, 142, 160;
+  --ambient-c: 154, 148, 173;
+  --ambient-d: 120, 151, 142;
+  background: #e4e5e2;
+}
+
+.visual-preview--contact {
+  --ambient-a: 234, 151, 92;
+  --ambient-b: 91, 132, 162;
+  --ambient-c: 186, 139, 158;
+  --ambient-d: 132, 163, 143;
+  background: #e2e1dc;
+}
+
+.visual-preview::before,
+.visual-preview::after {
+  content: "";
+  position: fixed;
+  pointer-events: none;
+  z-index: 0;
+  will-change: transform;
+}
+
+.visual-preview::before {
+  inset: -13%;
+  background:
+    radial-gradient(circle at 14% 25%, rgba(var(--ambient-a), .55) 0, rgba(var(--ambient-a), .2) 16%, transparent 37%),
+    radial-gradient(circle at 82% 18%, rgba(var(--ambient-b), .51) 0, rgba(var(--ambient-b), .18) 17%, transparent 40%),
+    radial-gradient(circle at 78% 83%, rgba(var(--ambient-c), .42) 0, rgba(var(--ambient-c), .14) 18%, transparent 39%),
+    radial-gradient(circle at 24% 80%, rgba(var(--ambient-d), .35) 0, transparent 36%);
+  filter: blur(28px);
+  opacity: .82;
+  animation: innerPageAmbient 11s ease-in-out infinite alternate;
+}
+
+.visual-preview::after {
+  width: 54vw;
+  height: 24vw;
+  min-width: 520px;
+  min-height: 230px;
+  left: 30vw;
+  top: 36vh;
+  border-radius: 50%;
+  background: rgba(255,255,255,.23);
+  filter: blur(65px);
+  transform: rotate(-14deg);
+  animation: innerPageSweep 9s ease-in-out infinite alternate;
+}
+
+.visual-preview > .nav,
+.visual-preview > main {
+  position: relative;
+  z-index: 1;
+}
+
+.visual-preview--about .about,
+.visual-preview--focus .sustainability,
+.visual-preview--focus .capabilities,
+.visual-preview--experience .experience,
+.visual-preview--contact .profile {
+  background: transparent;
+}
+
+/* Softer geometry, preserving every page's existing imagery and card colours. */
+.visual-preview--about .about-strengths article {
+  padding: 20px;
+  border: 1px solid rgba(11,11,11,.22);
+  border-radius: 22px;
+}
+
+.visual-preview--about .about-strengths h2 {
+  margin-top: 45px;
+}
+
+.visual-preview--about .about-education {
+  border-radius: 26px;
+  overflow: hidden;
+}
+
+.visual-preview--focus .focus-card,
+.visual-preview--focus .focus-card__front,
+.visual-preview--focus .focus-card__back {
+  border-radius: 24px;
+}
+
+.visual-preview--focus .focus-card {
+  box-shadow: 0 15px 35px rgba(21,28,32,.13), 0 0 0 1px rgba(11,11,11,.16);
+}
+
+.visual-preview--focus .focus-card__panel {
+  border-radius: 0 0 23px 23px;
+}
+
+.visual-preview--experience .experience-card {
+  border-radius: 24px;
+}
+
+.visual-preview--experience .experience-pagination__arrow,
+.visual-preview--experience .experience-pagination__pages button {
+  border-radius: 999px;
+}
+
+.visual-preview--contact .contact--video {
+  border-radius: 38px 38px 0 0;
+}
+
+.visual-preview--contact .contact-panel {
+  border: 1px solid rgba(255,255,255,.44);
+  border-radius: 26px;
+}
+
+.visual-preview--contact .contact-linkedin {
+  border-radius: 999px;
+}
+
+@keyframes innerPageAmbient {
+  0% { transform: translate3d(-5%,-3%,0) scale(1.03) rotate(-1deg); }
+  48% { transform: translate3d(7%,3%,0) scale(1.1) rotate(3deg); }
+  100% { transform: translate3d(-2%,9%,0) scale(1.05) rotate(-2deg); }
+}
+
+@keyframes innerPageSweep {
+  from { transform: translate3d(-15%,-15%,0) rotate(-14deg) scale(.88); opacity: .18; }
+  to { transform: translate3d(25%,24%,0) rotate(-8deg) scale(1.16); opacity: .42; }
+}
+
+@media (max-width: 760px) {
+  .visual-preview::after {
+    left: 5vw;
+    top: 42vh;
+  }
+
+  .visual-preview--about .about-strengths article {
+    padding: 18px;
+  }
+
+  .visual-preview--focus .focus-card,
+  .visual-preview--focus .focus-card__front,
+  .visual-preview--focus .focus-card__back,
+  .visual-preview--experience .experience-card {
+    border-radius: 20px;
+  }
+
+  .visual-preview--focus .focus-card__panel {
+    border-radius: 0 0 19px 19px;
+  }
+
+  .visual-preview--contact .contact--video {
+    border-radius: 28px 28px 0 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .visual-preview::before,
+  .visual-preview::after {
+    animation: none;
+  }
+}

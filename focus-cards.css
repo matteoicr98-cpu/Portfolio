@@ -3,6 +3,7 @@
 .focus-card{grid-column:span 2;position:relative;aspect-ratio:3/4;min-height:310px;background:linear-gradient(145deg,#d8d1ca,#a99c92);isolation:isolate;box-shadow:0 0 0 1px rgba(11,11,11,.24);perspective:1200px}
 .focus-card:nth-last-child(2):nth-child(3n+1){grid-column:2/span 2}
 .focus-card:last-child:nth-child(3n+2){grid-column:4/span 2}
+.focus-card:last-child:nth-child(4){grid-column:3/span 2}
 .focus-card__inner{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .72s cubic-bezier(.2,.75,.25,1)}
 .focus-card.is-flipped .focus-card__inner{transform:rotateY(180deg)}
 .focus-card__front,.focus-card__back{position:absolute;inset:0;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden}
@@ -14,14 +15,15 @@
 .focus-card--social-safety .focus-card__image{background:url("assets/focus-social-safety-front.webp") center 45%/cover no-repeat}
 .focus-card--visitor .focus-card__image{background:url("assets/focus-visitor-experience.jpg") center 62%/cover no-repeat}
 .focus-card__number{position:absolute;top:18px;left:18px;z-index:2;color:#fff;font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;text-shadow:0 1px 8px rgba(0,0,0,.45)}
-.focus-card__panel{position:absolute;z-index:3;left:0;right:0;bottom:0;min-height:64%;padding:21px 20px;background:var(--paper);color:var(--ink);transform:translateY(calc(100% - 82px));transition:transform .48s cubic-bezier(.2,.75,.25,1);display:flex;flex-direction:column;justify-content:space-between}
+.focus-card__panel{position:absolute;z-index:3;left:0;right:0;bottom:0;min-height:0;padding:18px 20px;background:var(--paper);color:var(--ink);transform:translateY(calc(100% - 82px));transition:transform .48s cubic-bezier(.2,.75,.25,1);display:flex;flex-direction:column;justify-content:flex-start;gap:12px}
 .focus-card__panel h3{max-width:92%;margin:0;font-size:clamp(19px,2vw,28px);line-height:1.02}
-.focus-card__preview{margin-top:24px}
-.focus-card__preview>p{margin:0 0 16px;font:500 11px/1.48 var(--mono);letter-spacing:0;text-transform:none}
+.focus-card__preview{margin-top:0;opacity:0;visibility:hidden;transform:translateY(5px);transition:opacity .22s ease,transform .22s ease,visibility 0s linear .22s}
+.focus-card__preview>p{margin:0 0 14px;font:500 11px/1.48 var(--mono);letter-spacing:0;text-transform:none}
 .focus-card__explore,.focus-card__back-button{appearance:none;border:0;border-bottom:1px solid currentColor;padding:0 0 3px;background:transparent;color:inherit;font:500 10px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
 .focus-card__explore:focus-visible,.focus-card__back-button:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
 .focus-card:hover .focus-card__image,.focus-card:focus-within .focus-card__image{transform:scale(1.035);filter:saturate(1.05)}
 .focus-card:hover .focus-card__panel,.focus-card:focus-within .focus-card__panel,.focus-card.is-open .focus-card__panel{transform:translateY(0)}
+.focus-card:hover .focus-card__preview,.focus-card:focus-within .focus-card__preview,.focus-card.is-open .focus-card__preview{opacity:1;visibility:visible;transform:translateY(0);transition-delay:.1s,.1s,0s}
 .focus-card__back{z-index:5;transform:rotateY(180deg);padding:18px 19px 17px;background:var(--paper);color:var(--ink);display:flex;flex-direction:column;overflow-y:auto}
 .focus-card--social-safety .focus-card__back{background:linear-gradient(rgba(243,239,235,.8),rgba(243,239,235,.88)),url("assets/focus-social-safety.jpg") center 48%/cover no-repeat}
 .focus-card__back header{padding-bottom:11px;border-bottom:1px solid rgba(11,11,11,.25)}
@@ -34,7 +36,7 @@
 .focus-card__back li{position:relative;padding-left:9px;font:500 9px/1.35 var(--mono)}
 .focus-card__back li::before{content:"—";position:absolute;left:0}
 .focus-card__back-button{align-self:flex-start;margin-top:auto;padding-top:14px}
-@media(max-width:900px){.focus-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.focus-card,.focus-card:nth-last-child(2):nth-child(3n+1),.focus-card:last-child:nth-child(3n+2){grid-column:auto}}
+@media(max-width:900px){.focus-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.focus-card,.focus-card:nth-last-child(2):nth-child(3n+1),.focus-card:last-child:nth-child(3n+2),.focus-card:last-child:nth-child(4){grid-column:auto}}
 @media(max-width:560px){.focus-card-grid{grid-template-columns:1fr;gap:18px}.focus-card{min-height:390px}.focus-card__panel{transform:translateY(calc(100% - 78px))}.focus-card__back{padding:20px}.focus-card__back section{margin-top:14px}.focus-card__back section p{font-size:11.5px}.focus-card__back li{font-size:9.5px}}
-@media(hover:none){.focus-card__panel{transform:translateY(calc(100% - 82px))}.focus-card.is-open .focus-card__image{transform:scale(1.035);filter:saturate(1.05)}.focus-card:active .focus-card__image{transform:scale(1.02)}}
-@media(prefers-reduced-motion:reduce){.focus-card__inner,.focus-card__panel,.focus-card__image{transition:none}}
+@media(hover:none){.focus-card__panel{transform:translateY(calc(100% - 78px))}.focus-card.is-open .focus-card__image{transform:scale(1.035);filter:saturate(1.05)}.focus-card:active .focus-card__image{transform:scale(1.02)}}
+@media(prefers-reduced-motion:reduce){.focus-card__inner,.focus-card__panel,.focus-card__image,.focus-card__preview{transition:none}}
