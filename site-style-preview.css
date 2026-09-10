@@ -93,6 +93,37 @@
   background: transparent;
 }
 
+.visual-preview--contact .profile--editorial {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, .75fr);
+  align-items: end;
+  gap: clamp(48px, 7vw, 112px);
+  padding-top: clamp(145px, 15vw, 205px);
+  padding-bottom: clamp(90px, 10vw, 140px);
+}
+
+.visual-preview--contact .profile--editorial .big-statement {
+  max-width: none;
+  font-size: clamp(38px, 4vw, 72px);
+}
+
+.visual-preview--contact .profile--editorial .big-statement span {
+  display: block;
+  white-space: nowrap;
+}
+
+.profile-editorial__body {
+  justify-self: end;
+  max-width: 38ch;
+  padding-bottom: .35em;
+  font-size: clamp(16px, 1.25vw, 19px);
+  line-height: 1.62;
+}
+
+.profile-editorial__body p {
+  margin: 0;
+}
+
 /* Softer geometry, preserving every page's existing imagery and card colours. */
 .visual-preview--about .about-strengths article {
   padding: 20px;
@@ -179,6 +210,24 @@
 
   .visual-preview--contact .contact--video {
     border-radius: 28px 28px 0 0;
+  }
+
+  .visual-preview--contact .profile--editorial {
+    grid-template-columns: 1fr;
+    gap: 38px;
+    padding-top: 112px;
+    padding-bottom: 82px;
+  }
+
+  .visual-preview--contact .profile--editorial .big-statement {
+    font-size: clamp(24px, 7.2vw, 44px);
+  }
+
+  .profile-editorial__body {
+    justify-self: start;
+    max-width: 36ch;
+    padding-bottom: 0;
+    font-size: 16px;
   }
 }
 

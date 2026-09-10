@@ -1,10 +1,13 @@
 const translations = {
   'Where I contribute.': 'Dove posso contribuire.',
   'Where I contribute': 'Dove posso contribuire',
+  'From planning.': 'Dalla pianificazione.',
+  'Into action.': 'All’azione.',
   'Operational area': 'Area operativa',
   'Role overview': 'Panoramica del ruolo',
   'Core capabilities': 'Competenze principali',
   'Four operational areas that define how I contribute across event preparation, teams and live delivery.': 'Quattro aree operative che definiscono il mio contributo nella preparazione degli eventi, nei team e nelle attività live.',
+  'Four operational roles shaped by my experience across preparation, coordination and live event delivery.': 'Quattro ruoli operativi plasmati dalla mia esperienza nella preparazione, nel coordinamento e nella realizzazione live degli eventi.',
   'Crew & Team Coordination': 'Coordinamento crew e team',
   'From requirements to structured delivery.': 'Dalle esigenze a una gestione strutturata.',
   'People, structure and live coordination.': 'Persone, organizzazione e coordinamento live.',
@@ -265,6 +268,9 @@ const translations = {
   '05 / Profile & objectives': '05 / Profilo e obiettivi',
   'Two years of festival and event experience in the Netherlands — now ready for the international stage.': 'Esperienza maturata tra festival ed eventi nei Paesi Bassi, ora pronta per una dimensione internazionale.',
   'Specialised in sustainability, social safety and volunteer management. Experience in large-scale electronic music festivals.': 'Focus su sostenibilità, social safety e gestione dei volontari. Esperienza in festival di musica elettronica su larga scala.',
+  'Built in the Netherlands.': 'Costruito nei Paesi Bassi.',
+  'Ready for what comes next.': 'Pronto per ciò che viene dopo.',
+  'My professional foundation comes from two years in the Dutch live-event industry, working across festivals, venues and large-scale productions. That experience shapes how I work today: structured in preparation, direct in communication and operational when the event goes live.': 'La mia base professionale nasce da due anni nell’industria olandese degli eventi live, lavorando tra festival, venue e produzioni su larga scala. Questa esperienza definisce il mio modo di lavorare oggi: strutturato nella preparazione, diretto nella comunicazione e operativo quando l’evento prende vita.',
   'Languages': 'Lingue',
   'Italian — Native': 'Italiano — Madrelingua',
   'English — Fluent': 'Inglese — Fluente',
@@ -437,6 +443,44 @@ function applyLanguage(language) {
   if (experienceStatus) experienceStatus.textContent = experienceStatusText(currentExperiencePage);
   try { localStorage.setItem('portfolio-language', currentLanguage); } catch (_) {}
 }
+
+function ensureSiteHeader() {
+  const isCaseStudy = window.location.pathname.includes('/case-studies/');
+  let header = document.querySelector('.nav');
+
+  if (!header && isCaseStudy) {
+    const stylesheet = document.createElement('link');
+    stylesheet.rel = 'stylesheet';
+    stylesheet.href = '../navigation.css?v=20260909-3';
+    document.head.appendChild(stylesheet);
+
+    header = document.createElement('header');
+    header.className = 'nav site-header';
+    header.innerHTML = '<a href="../home" class="brand" aria-label="Matteo Icardi — Home"><img class="brand-logo" src="../favicon.svg" alt="" width="36" height="36"></a><button class="menu-button" aria-label="Open menu" aria-expanded="false">Menu</button><nav aria-label="Main navigation"><a href="../home">Home</a><a href="../about">About</a><a href="../roles">Roles</a><a href="../experience">Experience &amp; Projects</a><a href="../focus">Focus</a><a href="../objectives-contact">Objectives / Contact</a></nav>';
+    const grain = document.querySelector('.grain');
+    if (grain) grain.after(header);
+    else document.body.prepend(header);
+    document.body.classList.add('has-global-nav');
+  }
+
+  if (!header) return;
+  header.classList.add('site-header');
+
+  const segments = window.location.pathname.replace(/\.html$/, '').split('/').filter(Boolean);
+  let currentPage = segments.at(-1) || 'home';
+  if (currentPage === 'index') currentPage = 'home';
+  if (isCaseStudy) currentPage = 'experience';
+
+  header.querySelectorAll('nav a').forEach((link) => {
+    const targetSegments = new URL(link.href, window.location.href).pathname.replace(/\.html$/, '').split('/').filter(Boolean);
+    let targetPage = targetSegments.at(-1) || 'home';
+    if (targetPage === 'index') targetPage = 'home';
+    if (targetPage === currentPage) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
+  });
+}
+
+ensureSiteHeader();
 
 function createLanguageSwitch() {
   const switcher = document.createElement('div');
