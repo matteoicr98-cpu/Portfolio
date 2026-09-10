@@ -16,10 +16,10 @@
 .focus-card--visitor .focus-card__image{background:url("assets/focus-visitor-experience.jpg") center 62%/cover no-repeat}
 .focus-card__number{position:absolute;top:18px;left:18px;z-index:2;color:#fff;font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;text-shadow:0 1px 8px rgba(0,0,0,.45)}
 .focus-card__panel{position:absolute;z-index:3;left:0;right:0;bottom:0;min-height:0;padding:18px 20px;background:var(--paper);color:var(--ink);transform:translateY(calc(100% - 82px));transition:transform .48s cubic-bezier(.2,.75,.25,1);display:flex;flex-direction:column;justify-content:flex-start;gap:12px}
-.focus-card__panel h3{max-width:92%;margin:0;font-size:clamp(19px,2vw,28px);line-height:1.02}
+.focus-card__panel h2{max-width:92%;margin:0;font-size:clamp(19px,2vw,28px);line-height:1.02}
 .focus-card__preview{margin-top:0;opacity:0;visibility:hidden;transform:translateY(5px);transition:opacity .22s ease,transform .22s ease,visibility 0s linear .22s}
 .focus-card__preview>p{margin:0 0 14px;font:500 11px/1.48 var(--mono);letter-spacing:0;text-transform:none}
-.focus-card__explore,.focus-card__back-button{appearance:none;border:0;border-bottom:1px solid currentColor;padding:0 0 3px;background:transparent;color:inherit;font:500 10px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
+.focus-card__explore,.focus-card__back-button{min-height:44px;appearance:none;border:0;border-bottom:1px solid currentColor;padding:0 0 3px;background:transparent;color:inherit;font:500 10px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
 .focus-card__explore:focus-visible,.focus-card__back-button:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
 .focus-card:hover .focus-card__image,.focus-card:focus-within .focus-card__image{transform:scale(1.035);filter:saturate(1.05)}
 .focus-card:hover .focus-card__panel,.focus-card:focus-within .focus-card__panel,.focus-card.is-open .focus-card__panel{transform:translateY(0)}
@@ -27,10 +27,10 @@
 .focus-card__back{z-index:5;transform:rotateY(180deg);padding:18px 19px 17px;background:var(--paper);color:var(--ink);display:flex;flex-direction:column;overflow-y:auto}
 .focus-card--social-safety .focus-card__back{background:linear-gradient(rgba(243,239,235,.8),rgba(243,239,235,.88)),url("assets/focus-social-safety.jpg") center 48%/cover no-repeat}
 .focus-card__back header{padding-bottom:11px;border-bottom:1px solid rgba(11,11,11,.25)}
-.focus-card__back header span,.focus-card__back h4{display:block;margin:0 0 6px;font:500 9px/1.25 var(--mono);letter-spacing:.08em;text-transform:uppercase}
-.focus-card__back header h3{margin:0;font-size:clamp(18px,1.8vw,25px);line-height:1.02}
+.focus-card__back header span,.focus-card__back h3{display:block;margin:0 0 6px;font:500 9px/1.25 var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.focus-card__back header h2{margin:0;font-size:clamp(18px,1.8vw,25px);line-height:1.02}
 .focus-card__back section{margin-top:12px}
-.focus-card__back section h4{opacity:.62}
+.focus-card__back section h3{opacity:.62}
 .focus-card__back section p{margin:0;font-size:11px;line-height:1.42}
 .focus-card__back ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 12px}
 .focus-card__back li{position:relative;padding-left:9px;font:500 9px/1.35 var(--mono)}

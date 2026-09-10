@@ -1,4 +1,8 @@
 .gallery-grid--blijdorp{grid-template-columns:minmax(0,1fr) auto;align-items:start}
+.case-meta--three{grid-template-columns:repeat(3,minmax(0,1fr));max-width:900px}
+.stats .blijdorp-staffing-stat b{font-size:clamp(25px,3vw,42px)}
 .gallery-grid--blijdorp>.wide{height:570px;min-height:0;grid-row:auto;object-fit:cover}
 .gallery-grid--blijdorp>.side{width:379px;height:570px;object-fit:cover;padding:0;background:transparent}
-@media(max-width:760px){.gallery-grid--blijdorp{grid-template-columns:1fr}.gallery-grid--blijdorp>.wide{height:auto;min-height:420px}.gallery-grid--blijdorp>.side{width:100%;height:auto;aspect-ratio:860/1294;object-fit:contain}}
+.blijdorp-experience strong{display:block;font-weight:600}
+.blijdorp-experience span{display:block;max-width:820px;margin-top:24px;font-size:clamp(14px,.48em,20px);line-height:1.55;letter-spacing:-.015em}
+@media(max-width:760px){.case-meta--three{grid-template-columns:1fr}.gallery-grid--blijdorp{grid-template-columns:1fr}.gallery-grid--blijdorp>.wide{height:auto;min-height:420px}.gallery-grid--blijdorp>.side{width:100%;height:auto;aspect-ratio:860/1294;object-fit:contain}}

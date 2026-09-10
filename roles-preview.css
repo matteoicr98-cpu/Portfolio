@@ -28,11 +28,13 @@
 .role-card .project-card__top>span:last-child {font-size:9px}
 .role-card .project-card__main {max-width:100%;padding:22px 0}
 .role-card .project-event {font:500 10px/1.5 var(--mono);max-width:100%;color:rgba(246,246,240,.68);margin-bottom:10px}
-.roles-grid .role-card h3 {font-size:clamp(32px,3.4vw,48px);line-height:1.03;letter-spacing:-.055em;max-width:440px}
+.roles-grid .role-card h2 {font-size:clamp(32px,3.4vw,48px);line-height:1.03;letter-spacing:-.055em;max-width:440px}
 .role-card .role-card__details {border-top:1px solid rgba(255,255,255,.22);padding-top:14px;gap:20px}
 .role-card .role-card__responsibilities {font-size:10px;max-width:64%;color:rgba(246,246,240,.7)}
-.role-card .role-card__explore {font-size:9px;min-height:40px}
-.role-card .role-card__explore .project-arrow {border:1px solid rgba(255,255,255,.28);border-radius:50%;width:33px;height:33px;display:grid;place-items:center;font-size:18px}
+.role-card .role-card__explore {font-size:9px;min-height:44px}
+.role-card .role-card__explore .project-arrow {position:relative;border:1px solid rgba(255,255,255,.28);border-radius:50%;width:33px;height:33px;display:grid;place-items:center;font-size:18px}
+.role-card .role-card__explore .project-arrow::before {top:8px;right:7px;width:8px;height:8px}
+.role-card .role-card__explore .project-arrow::after {top:16px;left:8px;width:16px;height:1.5px}
 .roles-grid .role-card:hover {transform:translateY(-4px);filter:saturate(1.08) brightness(1.07);box-shadow:0 24px 46px rgba(18,27,34,.22)}
 .role-expansion__scrim {background:rgba(12,18,24,.46);backdrop-filter:blur(12px)}
 .role-expansion-layer .role-expansion {
@@ -43,7 +45,7 @@
   padding:62px 36px 32px;
 }
 .role-expansion-layer .role-expansion__primary::after {display:none}
-.role-expansion__close {position:absolute;top:20px;right:22px;display:block;width:auto;min-height:0;margin:0;padding:5px 8px;border:1px solid rgba(255,255,255,.22);border-radius:999px;background:rgba(18,28,36,.58);color:#f5f4ef;text-align:center;backdrop-filter:blur(10px)}
+.role-expansion__close {position:absolute;top:20px;right:22px;display:block;width:auto;min-height:44px;margin:0;padding:5px 12px;border:1px solid rgba(255,255,255,.22);border-radius:999px;background:rgba(18,28,36,.58);color:#f5f4ef;text-align:center;backdrop-filter:blur(10px)}
 .role-expansion__layout {grid-template-columns:minmax(0,1.02fr) minmax(360px,.98fr);gap:clamp(36px,5vw,72px)}
 .role-expansion__primary {min-height:0;padding-right:clamp(0px,1vw,18px)}
 .role-expansion__label {margin-bottom:20px}
@@ -71,11 +73,13 @@
  .roles-introduction .section-heading h1 {font-size:clamp(46px,8vw,65px)}
  .roles-section .projects-intro {max-width:520px;margin-top:20px}
  .roles-grid .role-card {min-height:270px}
- .roles-grid .role-card h3 {font-size:clamp(32px,5.6vw,44px)}
+ .roles-grid .role-card h2 {font-size:clamp(32px,5.6vw,44px)}
  .role-expansion__layout {grid-template-columns:1fr;gap:28px}
  .role-expansion__primary {padding-right:0}
  .role-expansion__overview {margin-top:30px}
  .role-expansion__overview p {max-width:46ch}
+ .role-expansion-layer {place-items:start center;padding:82px 14px 14px}
+ .role-expansion-layer .role-expansion {max-height:calc(100dvh - 96px)}
 }
 @media(max-width:480px) {
  .roles-grid .role-card {padding:22px;min-height:280px;border-radius:20px}

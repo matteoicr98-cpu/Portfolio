@@ -1,0 +1,149 @@
+.home-page .hero--framed {
+  min-height: 100svh;
+  padding: 118px 6vw 38px;
+  display: block;
+}
+
+.home-page .hero--framed::after {
+  background: linear-gradient(110deg, rgba(5,5,6,.62), rgba(5,5,6,.09) 58%, rgba(5,5,6,.34));
+}
+
+.home-page .hero--framed > .hero-name-outside {
+  position: absolute;
+  z-index: 1;
+  top: 19%;
+  left: 7vw;
+}
+
+.hero-name-outside h1 {
+  margin: 0;
+  font-size: clamp(82px, 9.8vw, 154px);
+  font-weight: 500;
+  line-height: .82;
+  letter-spacing: -.09em;
+}
+
+.home-page .hero--framed > .hero-info-card {
+  position: absolute;
+  z-index: 1;
+  left: 7vw;
+  bottom: 4.5vh;
+  width: clamp(270px, 23vw, 350px);
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 26px;
+  background:
+    radial-gradient(circle at 94% 4%, rgba(220,133,81,.18), transparent 44%),
+    linear-gradient(140deg, rgba(8,12,15,.72), rgba(8,12,15,.46));
+  box-shadow: 0 18px 50px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.12);
+  backdrop-filter: blur(5px);
+  color: #f3efeb;
+}
+
+.hero-info-card__role,
+.hero-info-card__details {
+  padding: 21px 23px;
+}
+
+.hero-info-card__role p,
+.hero-info-card__details p {
+  margin: 0;
+}
+
+.hero-info-card__role p {
+  font-size: clamp(23px, 1.9vw, 30px);
+  font-weight: 500;
+  line-height: 1.02;
+  letter-spacing: -.055em;
+}
+
+.hero-info-card__details {
+  display: grid;
+  gap: 14px;
+  border-top: 1px solid rgba(255,255,255,.24);
+  background: rgba(5,8,10,.15);
+}
+
+.hero-info-card__statement {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -.02em;
+}
+
+.hero-info-card__disciplines {
+  font: 500 8.5px/1.7 var(--mono);
+  letter-spacing: .055em;
+  text-transform: uppercase;
+  color: rgba(243,239,235,.76);
+}
+
+@media (max-height: 760px) and (min-width: 901px) {
+  .home-page .hero--framed > .hero-name-outside {
+    top: 18%;
+  }
+
+  .hero-name-outside h1 {
+    font-size: clamp(74px, 8.6vw, 130px);
+  }
+
+  .hero-info-card__role,
+  .hero-info-card__details {
+    padding: 17px 20px;
+  }
+
+  .hero-info-card__role p {
+    font-size: clamp(21px, 1.7vw, 27px);
+  }
+
+  .hero-info-card__details {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .home-page .hero--framed {
+    padding: 92px 6vw 24px;
+  }
+
+  .home-page .hero--framed > .hero-name-outside {
+    top: 18%;
+    left: 6vw;
+  }
+
+  .home-page .hero--framed > .hero-info-card {
+    bottom: 24px;
+    left: 6vw;
+    width: min(340px, 88vw);
+    border-radius: 22px;
+  }
+
+  .hero-name-outside h1 {
+    font-size: clamp(72px, 18vw, 124px);
+  }
+}
+
+@media (max-width: 480px) {
+  .home-page .hero--framed > .hero-name-outside {
+    top: 20%;
+  }
+
+  .hero-name-outside h1 {
+    font-size: clamp(66px, 21vw, 94px);
+  }
+
+  .hero-info-card__role,
+  .hero-info-card__details {
+    padding: 17px 19px;
+  }
+
+  .hero-info-card__role p {
+    font-size: 23px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-info-card {
+    backdrop-filter: none;
+  }
+}

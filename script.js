@@ -21,7 +21,7 @@ const translations = {
   'My experience in crew and volunteer coordination covers both preparation and live operations, from staffing structures, communication and briefings to supporting supervisors and responding to changes during the event. I work to create clear conditions around teams so people understand where they need to be, what is expected from them and who they can rely on when operations become live.': 'La mia esperienza nel coordinamento di crew e volontari comprende sia la preparazione sia le attività live: dalla struttura dello staffing, dalla comunicazione e dai briefing fino al supporto ai supervisori e alla gestione dei cambiamenti durante l’evento. Lavoro per creare condizioni chiare attorno ai team, affinché le persone sappiano dove devono essere, cosa ci si aspetta da loro e su chi possono fare affidamento durante le operazioni live.',
   'My experience in entrance and access operations combines crew supervision, visitor flow, access procedures and real-time problem solving. I work close to the operation, keeping communication between gates, crews and supervisors clear while responding quickly to issues that can affect the arrival experience.': 'La mia esperienza nelle operazioni di ingresso e accesso combina supervisione della crew, flussi dei visitatori, procedure di accesso e risoluzione dei problemi in tempo reale. Lavoro a stretto contatto con l’operazione, mantenendo chiara la comunicazione tra varchi, crew e supervisori e rispondendo rapidamente ai problemi che possono influire sull’esperienza di arrivo.',
   'My experience in event operations comes from working across different live environments and operational functions, including crew support, venue operations, logistics, infrastructure and visitor-facing roles. I am used to adapting to changing conditions on site, supporting the wider operation and contributing where practical coordination is needed most.': 'La mia esperienza nelle operazioni di evento nasce dal lavoro in diversi ambienti live e funzioni operative, tra cui supporto alla crew, operazioni della venue, logistica, infrastrutture e ruoli a contatto con il pubblico. Sono abituato ad adattarmi alle condizioni che cambiano sul posto, supportando l’operazione complessiva e contribuendo dove il coordinamento pratico è più necessario.',
-  '350+ staffing shifts across 37 events': 'Oltre 350 turni di personale in 37 eventi',
+  '350+ crew members and volunteers across 37 events': 'Oltre 350 persone tra crew e volontari in 37 eventi',
   'Selected projects delivered through Revolution Academy.': 'Progetti selezionati svolti tramite Revolution Academy.',
   'Client / stakeholder communication': 'Comunicazione con clienti e interlocutori',
   'Staffing structure': 'Organizzazione del personale',
@@ -97,16 +97,14 @@ const translations = {
   'in motion.': 'in movimento.',
   'My role': 'Il mio ruolo',
   'Project Coordination & Volunteer Management': 'Coordinamento di progetto e gestione volontari',
-  'Security Supervisor': 'Security Supervisor',
+  'Venue Security Operations': 'Operazioni di sicurezza della venue',
   'Check-in Supervisor': 'Supervisore check-in',
   'Entrance Supervisor': 'Supervisore ingressi',
-  'Infrastructure Team': 'Team infrastrutture',
+  'Infrastructure Crew': 'Crew infrastrutture',
   'Social Awareness Crew': 'Crew Social Awareness',
   'Projects 1–4 of 10': 'Progetti 1–4 di 10',
   'Projects 5–8 of 10': 'Progetti 5–8 di 10',
   'Projects 9–10 of 10': 'Progetti 9–10 di 10',
-  'Content to be added': 'Contenuto da aggiungere',
-  'Details will be added project by project.': 'I dettagli verranno aggiunti un progetto alla volta.',
   'More projects': 'Altri progetti',
   'Previous experience': 'Esperienze precedenti',
   'DGTL · Defqon.1 · 909 · Noart · Circoloco · Mysteryland · entrance operations · social awareness': 'DGTL · Defqon.1 · 909 · Noart · Circoloco · Mysteryland · operazioni di ingresso · social awareness',
@@ -114,7 +112,6 @@ const translations = {
   'start behind': 'nascono dietro',
   'the scenes.': 'le quinte.',
   'This work focuses on the operational areas that make live events more prepared, inclusive and responsible.': 'Questo lavoro si concentra sulle aree operative che rendono gli eventi live più preparati, inclusivi e responsabili.',
-  'Sustainability, volunteer and team management, entrance and access operations, and social safety / visitor experience.': 'Sostenibilità, gestione di volontari e team, operazioni di ingresso e accesso, social safety ed esperienza del pubblico.',
   'Areas of focus': 'Aree di focus',
   'Explore area': 'Esplora l’area',
   '← Back': '← Indietro',
@@ -166,18 +163,8 @@ const translations = {
   'On-site problem solving': 'Risoluzione dei problemi on-site',
   'Coordination between operational teams': 'Coordinamento tra i team operativi',
   'Small operational decisions can have a major impact on how smooth, safe and welcoming an event feels.': 'Piccole decisioni operative possono avere un grande impatto su quanto un evento risulti fluido, sicuro e accogliente.',
-  'Image pending': 'Immagine in arrivo',
-  'Volunteer & Team Management': 'Gestione volontari e team',
-  'Entrance / Access Operations': 'Operazioni di ingresso / accesso',
   'Social Safety': 'Social safety',
   'Visitor Experience': 'Esperienza del pubblico',
-  'Operational management': 'Gestione operativa',
-  'Project management': 'Project management',
-  'Client communication': 'Comunicazione con il cliente',
-  'Crew coordination': 'Coordinamento crew',
-  'Project coordination': 'Coordinamento di progetto',
-  'Pre-production planning': 'Pianificazione della pre-produzione',
-  '04 / Roles': '04 / Ruoli',
   'On the ground.': 'Sul campo.',
   'On point.': 'Con precisione.',
   'Roles developed across crew leadership, coordination and live-event operations. Each card shows the project context and organisation.': 'Ruoli sviluppati tra leadership della crew, coordinamento e operazioni negli eventi live. Ogni card mostra il contesto del progetto e l’organizzazione.',
@@ -212,14 +199,13 @@ const translations = {
   'Visitor-facing operations': 'Operazioni a contatto con il pubblico',
   'Situational awareness': 'Consapevolezza della situazione',
   'Support during live delivery': 'Supporto durante la delivery live',
-  'Venue / Security Operations': 'Operazioni venue / security',
   'Social Safety & Live Operations': 'Social safety e operazioni live',
   'Operational & Crew Support': 'Supporto operativo e alla crew',
   'Role / People & teams': 'Ruolo / Persone e team',
   'Creating clear structures around crews, volunteers and supervisors so teams can operate effectively during live events.': 'Creare strutture chiare per crew, volontari e supervisor affinché i team possano operare efficacemente durante gli eventi live.',
   'Clear roles, direct communication and strong preparation help teams stay effective when the event becomes live.': 'Ruoli chiari, comunicazione diretta e una preparazione solida aiutano i team a rimanere efficaci quando l’evento diventa live.',
   'Shift coordination': 'Coordinamento dei turni',
-  'Volunteer Management / 350+ staffing shifts': 'Gestione volontari / oltre 350 turni di personale',
+  'Volunteer Management / 350+ crew members and volunteers': 'Gestione volontari / oltre 350 persone tra crew e volontari',
   'Crew Manager': 'Crew Manager',
   'Assistant Crew Manager': 'Assistant Crew Manager',
   'Entrance / Crew Supervision': 'Supervisione ingressi / crew',
@@ -254,26 +240,15 @@ const translations = {
   'Entrance & Access': 'Ingresso e accessi',
   'Entrance & Access Operations': 'Operazioni di ingresso e accesso',
   'Entrance operations · Check-in · Access control · Visitor flow': 'Operazioni di ingresso · Check-in · Controllo accessi · Flusso visitatori',
-  'Preparing the physical systems behind an event.': 'Preparazione dei sistemi fisici che sostengono un evento.',
-  'Infrastructure': 'Infrastruttura',
-  '& Logistics': 'e logistica',
-  'Infrastructure & Logistics': 'Infrastruttura e logistica',
-  'Festival build-up · Logistics · Water & electricity infrastructure': 'Allestimento festival · Logistica · Infrastrutture idriche ed elettriche',
   'Role': 'Ruolo',
   'Organisation': 'Organizzazione',
   'Assistant': 'Assistant',
   'Project': 'Progetto',
   'events': 'eventi',
   'Event Operations': 'Operazioni evento',
-  '05 / Profile & objectives': '05 / Profilo e obiettivi',
-  'Two years of festival and event experience in the Netherlands — now ready for the international stage.': 'Esperienza maturata tra festival ed eventi nei Paesi Bassi, ora pronta per una dimensione internazionale.',
-  'Specialised in sustainability, social safety and volunteer management. Experience in large-scale electronic music festivals.': 'Focus su sostenibilità, social safety e gestione dei volontari. Esperienza in festival di musica elettronica su larga scala.',
   'Built in the Netherlands.': 'Costruito nei Paesi Bassi.',
   'Ready for what comes next.': 'Pronto per ciò che viene dopo.',
   'My professional foundation comes from two years in the Dutch live-event industry, working across festivals, venues and large-scale productions. That experience shapes how I work today: structured in preparation, direct in communication and operational when the event goes live.': 'La mia base professionale nasce da due anni nell’industria olandese degli eventi live, lavorando tra festival, venue e produzioni su larga scala. Questa esperienza definisce il mio modo di lavorare oggi: strutturato nella preparazione, diretto nella comunicazione e operativo quando l’evento prende vita.',
-  'Languages': 'Lingue',
-  'Italian — Native': 'Italiano — Madrelingua',
-  'English — Fluent': 'Inglese — Fluente',
   'Available for event opportunities & collaborations': 'Disponibile per opportunità e collaborazioni nel settore eventi',
   'Projects, collaborations and international event opportunities.': 'Progetti, collaborazioni e opportunità internazionali nel settore eventi.',
   'Start a conversation': 'Iniziamo una conversazione',
@@ -284,7 +259,6 @@ const translations = {
   '← Back to Experience': '← Torna alle esperienze',
   'Project overview': 'Panoramica del progetto',
   'Year': 'Anno',
-  'Scale details to be added': 'Dettagli sulla scala da aggiungere',
   'Crew management': 'Gestione della crew',
   'on site.': 'on-site.',
   'Crew Manager role': 'Ruolo di Crew Manager',
@@ -306,7 +280,6 @@ const translations = {
   'Communication across teams': 'Comunicazione tra i team',
   'Operational delivery': 'Delivery operativa',
   'Amsterdam Dance Event is a multi-venue conference and showcase festival. The project required coordination across numerous events, teams and live operational moments.': 'Amsterdam Dance Event è una conferenza e showcase festival distribuito su più venue. Il progetto ha richiesto coordinamento tra numerosi eventi, team e momenti operativi live.',
-  'Working across 37 events strengthened my ability to keep communication, people and operational priorities aligned at scale.': 'Lavorare su 37 eventi ha rafforzato la mia capacità di mantenere allineate comunicazione, persone e priorità operative su larga scala.',
   'Project material.': 'Materiale del progetto.',
   '37 events': '37 eventi',
   '350+ volunteers': '350+ volontari',
@@ -341,7 +314,7 @@ const translations = {
   'and': 'e',
   '37 events': '37 eventi',
   ', covering': ', con',
-  '350+ crew and volunteer shifts': 'oltre 350 turni tra crew e volontari',
+  '350+ crew members and volunteers': 'oltre 350 persone tra crew e volontari',
   'throughout the week.': 'distribuiti nell’arco della settimana.',
   'My work focuses on': 'Il mio lavoro si concentra su',
   'volunteer recruitment': 'recruitment dei volontari',
@@ -351,8 +324,7 @@ const translations = {
   ', from pre-production through live delivery and aftercare.': ', dalla pre-produzione fino alla gestione live e all’aftercare.',
   '37 EVENTS': '37 EVENTI',
   'Across 7 venues': 'Su 7 venue',
-  '350+ SHIFTS': 'OLTRE 350 TURNI',
-  'Approx. 150 crew & volunteers': 'Circa 150 tra crew e volontari',
+  '350+ CREW': 'OLTRE 350 PERSONE',
   'Manage the full volunteer recruitment process': 'Gestisco l’intero processo di recruitment dei volontari',
   ', from first contact with prospective participants through registration, event selection, confirmation and final assignment.': ', dal primo contatto con le persone interessate fino alla registrazione, alla scelta dell’evento, alla conferma e all’assegnazione finale.',
   'Contact and engage 750+ prospective participants': 'Contatto e coinvolgo oltre 750 potenziali partecipanti',
@@ -362,7 +334,6 @@ const translations = {
   'Translate approved staffing requirements into operational shifts': 'Traduco i requisiti di staffing approvati in turni operativi',
   ', preparing roles, timings and personnel needs and updating them as event requirements change.': ', preparando ruoli, orari e fabbisogno di personale e aggiornandoli quando cambiano le necessità dell’evento.',
   'Manage volunteer communication and onboarding': 'Gestisco comunicazione e onboarding dei volontari',
-  ', answering questions, confirming assignments, organising event WhatsApp groups and ensuring participants receive the information required for their shifts.': ', rispondendo alle domande, confermando le assegnazioni, organizzando i gruppi WhatsApp degli eventi e assicurandomi che ogni partecipante abbia le informazioni necessarie per il proprio turno.',
   'Prepare and maintain operational staffing documentation': 'Preparo e mantengo la documentazione operativa dello staffing',
   ', including check-in sheets, personnel details, shift information and the central staffing overview used across the programme.': ', incluse check-in sheet, informazioni del personale, dettagli dei turni e overview centrale utilizzata durante il programma.',
   'Support live operations across multiple venues': 'Supporto le operazioni live su più venue',
@@ -395,7 +366,7 @@ const translations = {
   'together across': 'all’interno di',
   'simultaneous events': 'eventi simultanei',
   'and constantly changing operational requirements.': 'e di esigenze operative in continuo cambiamento.',
-  '350+ shifts': 'oltre 350 turni'
+  '350+ crew': 'oltre 350 persone'
 };
 
 const originalText = new WeakMap();
@@ -405,7 +376,59 @@ function storedLanguage() {
   catch (_) { return 'en'; }
 }
 
-let currentLanguage = storedLanguage();
+const italianVersionAvailable = false;
+let currentLanguage = italianVersionAvailable ? storedLanguage() : 'en';
+
+function prepareBackgroundVideos() {
+  document.querySelectorAll('.hero-video, .contact-video').forEach((video) => {
+    video.muted = true;
+    video.defaultMuted = true;
+    video.playsInline = true;
+    video.setAttribute('muted', '');
+    video.setAttribute('playsinline', '');
+    video.setAttribute('webkit-playsinline', '');
+
+    const wakeEvents = ['pointerdown', 'touchstart', 'keydown'];
+    const removeWakeListeners = () => {
+      wakeEvents.forEach((eventName) => document.removeEventListener(eventName, attemptPlayback));
+    };
+    const attemptPlayback = () => {
+      const playback = video.play();
+      if (playback && typeof playback.then === 'function') {
+        playback.then(() => {
+          video.classList.remove('is-autoplay-blocked');
+          removeWakeListeners();
+        }).catch(() => video.classList.add('is-autoplay-blocked'));
+      }
+    };
+
+    wakeEvents.forEach((eventName) => document.addEventListener(eventName, attemptPlayback, { passive: true }));
+    video.addEventListener('canplay', attemptPlayback, { once: true });
+    window.addEventListener('pageshow', attemptPlayback);
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden) attemptPlayback();
+    });
+    attemptPlayback();
+  });
+}
+
+prepareBackgroundVideos();
+let languageNoticeTimer;
+
+function showLanguageNotice() {
+  let notice = document.querySelector('.language-notice');
+  if (!notice) {
+    notice = document.createElement('div');
+    notice.className = 'language-notice';
+    notice.setAttribute('role', 'status');
+    notice.setAttribute('aria-live', 'polite');
+    document.body.appendChild(notice);
+  }
+  notice.textContent = 'Italian version is being updated. Coming soon.';
+  window.clearTimeout(languageNoticeTimer);
+  requestAnimationFrame(() => notice.classList.add('is-visible'));
+  languageNoticeTimer = window.setTimeout(() => notice.classList.remove('is-visible'), 3000);
+}
 
 function translateTextNodes(root, language) {
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
@@ -451,12 +474,12 @@ function ensureSiteHeader() {
   if (!header && isCaseStudy) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = '../navigation.css?v=20260909-3';
+    stylesheet.href = '../navigation.css?v=20260910-menu-motion';
     document.head.appendChild(stylesheet);
 
     header = document.createElement('header');
     header.className = 'nav site-header';
-    header.innerHTML = '<a href="../home" class="brand" aria-label="Matteo Icardi — Home"><img class="brand-logo" src="../favicon.svg" alt="" width="36" height="36"></a><button class="menu-button" aria-label="Open menu" aria-expanded="false">Menu</button><nav aria-label="Main navigation"><a href="../home">Home</a><a href="../about">About</a><a href="../roles">Roles</a><a href="../experience">Experience &amp; Projects</a><a href="../focus">Focus</a><a href="../objectives-contact">Objectives / Contact</a></nav>';
+    header.innerHTML = '<a href="/" class="brand" aria-label="Matteo Icardi — Home"><img class="brand-logo" src="../favicon.svg" alt="" width="36" height="36"></a><button class="menu-button" aria-label="Open menu" aria-expanded="false">Menu</button><nav aria-label="Main navigation"><a href="/">Home</a><a href="../about">About</a><a href="../roles">Roles</a><a href="../experience">Experience &amp; Projects</a><a href="../focus">Focus</a><a href="../objectives-contact">Objectives / Contact</a></nav>';
     const grain = document.querySelector('.grain');
     if (grain) grain.after(header);
     else document.body.prepend(header);
@@ -489,7 +512,14 @@ function createLanguageSwitch() {
   switcher.innerHTML = '<button type="button" data-language="en" aria-label="English">EN</button><span aria-hidden="true">/</span><button type="button" data-language="it" aria-label="Italiano">IT</button>';
   const header = document.querySelector('.nav');
   (header || document.body).appendChild(switcher);
-  switcher.querySelectorAll('button').forEach((button) => button.addEventListener('click', () => applyLanguage(button.dataset.language)));
+  switcher.querySelectorAll('button').forEach((button) => button.addEventListener('click', () => {
+    if (button.dataset.language === 'it' && !italianVersionAvailable) {
+      applyLanguage('en');
+      showLanguageNotice();
+      return;
+    }
+    applyLanguage(button.dataset.language);
+  }));
 }
 
 createLanguageSwitch();
@@ -516,6 +546,13 @@ const experienceStatus = document.querySelector('.experience-pagination__status'
 const projectsPerPage = 4;
 let currentExperiencePage = 1;
 
+function updateExperiencePageUrl(page) {
+  const url = new URL(window.location.href);
+  if (page > 1) url.searchParams.set('page', String(page));
+  else url.searchParams.delete('page');
+  window.history.replaceState(null, '', `${url.pathname}${url.search}${url.hash}`);
+}
+
 function experienceStatusText(page) {
   const first = (page - 1) * projectsPerPage + 1;
   const last = Math.min(page * projectsPerPage, experienceCards.length);
@@ -539,6 +576,7 @@ function renderExperiencePage(page, moveToGrid = false) {
   document.querySelector('[data-page-direction="previous"]')?.toggleAttribute('disabled', currentExperiencePage === 1);
   document.querySelector('[data-page-direction="next"]')?.toggleAttribute('disabled', currentExperiencePage === pageCount);
   if (experienceStatus) experienceStatus.textContent = experienceStatusText(currentExperiencePage);
+  updateExperiencePageUrl(currentExperiencePage);
   if (moveToGrid) document.querySelector('.experience-grid')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
@@ -546,7 +584,39 @@ experiencePageButtons.forEach((button) => button.addEventListener('click', () =>
 document.querySelector('[data-page-direction="previous"]')?.addEventListener('click', () => renderExperiencePage(currentExperiencePage - 1, true));
 document.querySelector('[data-page-direction="next"]')?.addEventListener('click', () => renderExperiencePage(currentExperiencePage + 1, true));
 
-renderExperiencePage(1);
+experienceCards.forEach((card) => card.addEventListener('click', () => {
+  try {
+    sessionStorage.setItem('experience-return-page', String(currentExperiencePage));
+    const projectUrl = new URL(card.href);
+    projectUrl.searchParams.set('source', 'experience');
+    projectUrl.searchParams.set('experiencePage', String(currentExperiencePage));
+    card.href = projectUrl.href;
+  } catch (_) { /* Navigation still works when URL or storage APIs are unavailable. */ }
+}));
+
+const requestedExperiencePage = Number(new URLSearchParams(window.location.search).get('page')) || 1;
+renderExperiencePage(requestedExperiencePage);
+
+const experienceBackLink = document.querySelector('.back[href$="experience"]');
+if (experienceBackLink) {
+  try {
+    const currentUrl = new URL(window.location.href);
+    const explicitExperienceSource = currentUrl.searchParams.get('source') === 'experience';
+    let returnPage = explicitExperienceSource ? Number(currentUrl.searchParams.get('experiencePage')) : 0;
+
+    if (!returnPage && document.referrer) {
+      const referrer = new URL(document.referrer);
+      const cameFromExperience = referrer.origin === window.location.origin && /\/experience(?:\.html)?$/.test(referrer.pathname);
+      if (cameFromExperience) {
+        returnPage = Number(referrer.searchParams.get('page')) || Number(sessionStorage.getItem('experience-return-page')) || 1;
+      }
+    }
+
+    if (returnPage > 1) {
+      experienceBackLink.href = `../experience?page=${returnPage}`;
+    }
+  } catch (_) { /* Keep the default page-one link as a safe fallback. */ }
+}
 
 applyLanguage(currentLanguage);
 
