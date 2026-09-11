@@ -452,7 +452,9 @@ h3{font-size:27px;line-height:1.05;letter-spacing:-.05em;margin:12px 0 0;font-we
 
 .experience-grid{margin:55px 0 0;grid-template-columns:1fr}
 
-.experience-card{min-height:390px;display:flex;flex-direction:column;justify-content:space-between;gap:0}
+.experience-card{min-height:390px;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:0;text-align:left}
+
+.experience-card__event{width:100%;align-self:flex-start}
 
 .experience-card__role{align-self:auto;border-left:0;border-top:1px solid currentColor;padding:13px 38px 0 0;width:100%}
 
