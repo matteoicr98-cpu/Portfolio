@@ -224,6 +224,10 @@
     font-weight: 600;
   }
 
+  .visual-preview--contact .profile--editorial .big-statement span {
+    white-space: normal;
+  }
+
   .profile-editorial__body {
     justify-self: start;
     max-width: 36ch;

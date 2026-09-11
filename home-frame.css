@@ -57,6 +57,22 @@
   letter-spacing: -.055em;
 }
 
+.hero-info-card__role span {
+  display: block;
+}
+
+html[lang="it"] .home-page .hero-info-card__role span {
+  display: inline;
+}
+
+html[lang="it"] .home-page .hero-info-card__role span:first-child {
+  display: block;
+}
+
+html[lang="it"] .home-page .hero-info-card__role span:nth-child(2)::after {
+  content: " ";
+}
+
 .hero-info-card__details {
   display: grid;
   gap: 14px;
