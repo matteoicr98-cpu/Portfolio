@@ -221,6 +221,7 @@
 
   .visual-preview--contact .profile--editorial .big-statement {
     font-size: clamp(24px, 7.2vw, 44px);
+    font-weight: 600;
   }
 
   .profile-editorial__body {
